@@ -10,6 +10,4 @@ export class AssignStudentsToLessonInput{
     @IsUUID("4", { each : true })
     @Field(type => [ID])
     studentIds : string[];
-
-
 }
